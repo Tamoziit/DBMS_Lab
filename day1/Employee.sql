@@ -43,4 +43,16 @@ select emp_id, emp_name from emp_151 where emp_name like 'J%' or emp_name like '
 
 select emp_id, emp_name, dept_id, salary + nvl(commission, 0) as Total_Salary from emp_151;
 
+
+/* Home Assignment */
+select emp_id, emp_name, salary, salary + (0.15 * salary) as New_Salary from emp_151;
+
+select emp_id, emp_name, salary, salary + (0.15 * salary) as New_Salary, (0.15 * salary) as Incremented_Salary from emp_151;
+
+select emp_name || ' earns Rs.' || salary || ' monthly but wants Rs.' || (3 * salary) as Dream_Salaries from emp_151;
+
+select emp_id, emp_name, salary, round(salary + (0.15 * salary)) as New_Salary from emp_151;
+
+select emp_id, emp_name, dept_id, salary + nvl(commission, 0) as Total_Monthly_Salary from emp_151 where emp_name like 'A%';
+
 commit;

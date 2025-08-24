@@ -1,4 +1,4 @@
-/* DAY 3 HOME ASSIGNMENT: 1*/
+./* DAY 3 HOME ASSIGNMENT: 1*/
 create table Employees
 (
     empid      NUMBER(5),

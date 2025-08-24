@@ -14,7 +14,7 @@ create table Employee
 (
     emp_id number(5),
     name varchar(15),
-    salary number(7, 2),
+    salary number(7, 2) not null,
     hire_date date,
     dept_no number(5),
     constraints p3_1b primary key(emp_id),
@@ -42,7 +42,9 @@ insert into Employee values
 select * from Depart;
 select * from Employee;
 
-delete from Depart where dept_id = 14;
+delete from Depart where dept_id = 20;
 delete from Employee where dept_no = 14;
+
+DROP TABLE Employee;
 
 commit;

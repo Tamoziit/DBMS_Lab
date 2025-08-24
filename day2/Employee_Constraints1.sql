@@ -22,6 +22,4 @@ insert into emp_new values
     '&loc'
 );
 
-DROP TABLE emp_new;
-
 commit;

@@ -12,8 +12,8 @@ select * from EMPP;
 insert into EMPP values
 (
     &Id,
-    '&Ename',
-    &Dept_id
+    '&EName',
+    '&Dept_id'
 );
 
 alter table EMPP modify(EName varchar(25));

@@ -13,5 +13,6 @@ alter table emp_day4 modify(name varchar(25));
 delete from emp_day4 where salary > 10000;
 
 rename emp_day4 to emp_d4;
+drop table emp_d4;
 
 commit;

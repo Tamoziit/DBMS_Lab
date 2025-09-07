@@ -20,6 +20,8 @@ insert into Employees values (1, 'Alice', 80000, 'Delhi', DATE '2020-01-15', NUL
 insert into Employees values (2, 'Bob', 50000, 'Mumbai', DATE '2021-03-10', 1, 'HR');
 insert into Employees values (4, 'David', 45000, 'Pune', DATE '2023-02-01', 2, 'IT');
 insert into Employees values (3, 'Beckham', 45000, 'Pune', DATE '2023-02-01', 4, 'IT');
+insert into Employees values (5, 'Messi', 95000, 'Kolkata', DATE '2023-07-11', 2, 'CSE');
+insert into Employees values (6, 'Ronaldo', 93000, 'Mumbai', DATE '2023-05-12', NULL, 'MECH');
 
 /* Violations */
 insert into Employees values (5, 'Eve', 40000, 'Chennai', DATE '2024-01-01', 99, 'Finance');

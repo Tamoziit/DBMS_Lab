@@ -38,3 +38,5 @@ select e1.name, e1.hire_date from Employee e1 join Employee e2 on e2.name = 'Dav
 
 --4--
 select e1.name, e1.hire_date, e2.name as mgr_name, e2.hire_date as mgr_date from Employees e1, Employees e2 where e1.mgr_no = e2.empid and e1.hire_date < e2.hire_date;
+
+commit;

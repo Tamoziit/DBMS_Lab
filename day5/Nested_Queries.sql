@@ -24,3 +24,5 @@ select name, salary from Employee where salary =
     (select min(salary) from
         (select distinct salary from Employee order by salary desc)
     where rownum < 5);
+    
+commit;

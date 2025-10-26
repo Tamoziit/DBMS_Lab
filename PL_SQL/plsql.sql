@@ -34,3 +34,5 @@ set serveroutput on;
 
 @accounts.sql
 select * from Accounts;
+
+commit;
